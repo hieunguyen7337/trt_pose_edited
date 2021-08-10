@@ -5,6 +5,8 @@ Result model compare to 2 pretrained model provided by NVidia
 |-------|-------------|---------------|---------|
 | resnet18_baseline_att_224x224_A | 22 | 251 | [download (81MB)](https://drive.google.com/open?id=1XYDdCUdiF2xxx4rznmLb62SdOUZuoNbd) |
 | densenet121_baseline_att_256x256_B | 12 | 101 | [download (84MB)](https://drive.google.com/open?id=13FkJkx7evQ1WwP54UmdiDXWyFMY1OxDU) |
+
+
 Pretrained model resnet_18_trt 224x224
  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.185
  Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.365

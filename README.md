@@ -1,10 +1,20 @@
 # trt_pose_edited
 A modified repository from the trt_pose github by NVidia 
 Result model compare to 2 pretrained model provided by NVidia
-| Model | Pretrained model resnet_18_trt 224x224 | Pretrained model densenet_121_trt 256x256 | Modified model dla34 320x320 |
+| Model | Pretrained model resnet_18_trt 224x224 | Pretrained model densenet_121_trt 256x256 | Modified model dla34_epoch249_upsample_x2_adam_opti_trt cmap_threshold=0.2,link_threshold=0.2 320x320 |
 |-------|-------------|---------------|---------|
-| resnet18_baseline_att_224x224_A | 22 | 251 | [download (81MB)](https://drive.google.com/open?id=1XYDdCUdiF2xxx4rznmLb62SdOUZuoNbd) |
-| densenet121_baseline_att_256x256_B | 12 | 101 | [download (84MB)](https://drive.google.com/open?id=13FkJkx7evQ1WwP54UmdiDXWyFMY1OxDU) |
+| Average Precision  (AP) @[ IoU=0.50:0.95 , area=   all , maxDets= 20 ] | 22 | 251 | 1 |
+| Average Precision  (AP) @[ IoU=0.50      , area=   all , maxDets= 20 ] | 12 | 101 | 2 |
+| a | 12 | 101 | 2 |
+| b | 12 | 101 | 2 |
+| b | 12 | 101 | 2 |
+| b | 12 | 101 | 2 |
+| b | 12 | 101 | 2 |
+| b | 12 | 101 | 2 |
+| b | 12 | 101 | 2 |
+| b | 12 | 101 | 2 |
+| b | 12 | 101 | 2 |
+
 
 
 Pretrained model resnet_18_trt 224x224

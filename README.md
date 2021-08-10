@@ -5,15 +5,15 @@ Result model compare to 2 pretrained model provided by NVidia
 |-------|-------------|---------------|---------|
 | Average Precision (AP) @[IoU=0.05:0.50:0.95] | 22 | 251 | 1 |
 | Average Precision (AP) @[IoU=0.50] | 12 | 101 | 2 |
-| a | 12 | 101 | 2 |
-| b | 12 | 101 | 2 |
-| b | 12 | 101 | 2 |
-| b | 12 | 101 | 2 |
-| b | 12 | 101 | 2 |
-| b | 12 | 101 | 2 |
-| b | 12 | 101 | 2 |
-| b | 12 | 101 | 2 |
-| b | 12 | 101 | 2 |
+| Average Precision (AP) @[IoU=0.75] | 12 | 101 | 2 |
+| Average Precision (AP) @[area=medium] | 12 | 101 | 2 |
+| Average Precision (AP) @[area= large] | 12 | 101 | 2 |
+| Average Recall    (AR) @[IoU=0.05:0.50:0.95] | 22 | 251 | 1 |
+| Average Recall    (AR) @[IoU=0.50] | 12 | 101 | 2 |
+| Average Recall    (AR) @[IoU=0.75] | 12 | 101 | 2 |
+| Average Recall    (AR) @[area=medium] | 12 | 101 | 2 |
+| Average Recall    (AR) @[area= large] | 12 | 101 | 2 |
+| Frame per second  (FPS) | 12 | 101 | 2 |
 
 
 

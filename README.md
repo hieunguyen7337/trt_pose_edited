@@ -3,8 +3,8 @@ A modified repository from the trt_pose github by NVidia
 Result model compare to 2 pretrained model provided by NVidia
 | Model | Pretrained model resnet_18_trt 224x224 | Pretrained model densenet_121_trt 256x256 | Modified model dla34_epoch249_upsample_x2_adam_opti_trt cmap_threshold=0.2,link_threshold=0.2 320x320 |
 |-------|-------------|---------------|---------|
-| Average Precision  (AP) @[ IoU=0.50:0.95 , area=   all , maxDets= 20 ] | 22 | 251 | 1 |
-| Average Precision  (AP) @[ IoU=0.50      , area=   all , maxDets= 20 ] | 12 | 101 | 2 |
+| Average Precision (AP) @[IoU=0.05:0.50:0.95] | 22 | 251 | 1 |
+| Average Precision (AP) @[IoU=0.50] | 12 | 101 | 2 |
 | a | 12 | 101 | 2 |
 | b | 12 | 101 | 2 |
 | b | 12 | 101 | 2 |

@@ -1,23 +1,23 @@
 # trt_pose_edited
 A modified repository from the trt_pose github by NVidia 
 Result model compare to 2 pretrained model provided by NVidia
-| Model | Jetson Nano | Jetson Xavier | Weights |
+| Model | Pretrained model resnet_18_trt 224x224 | Pretrained model densenet_121_trt 256x256 | Modified model dla34 320x320 |
 |-------|-------------|---------------|---------|
 | resnet18_baseline_att_224x224_A | 22 | 251 | [download (81MB)](https://drive.google.com/open?id=1XYDdCUdiF2xxx4rznmLb62SdOUZuoNbd) |
 | densenet121_baseline_att_256x256_B | 12 | 101 | [download (84MB)](https://drive.google.com/open?id=13FkJkx7evQ1WwP54UmdiDXWyFMY1OxDU) |
 
 
 Pretrained model resnet_18_trt 224x224
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.185
- Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.365
- Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.164
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets= 20 ] = 0.079
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets= 20 ] = 0.329
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.245
- Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.410
- Average Recall     (AR) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.241
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets= 20 ] = 0.083
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets= 20 ] = 0.467
+ Average Precision  (AP) @[ IoU=0.50:0.95 , area=   all , maxDets= 20 ] = 0.185
+ Average Precision  (AP) @[ IoU=0.50      , area=   all , maxDets= 20 ] = 0.365
+ Average Precision  (AP) @[ IoU=0.75      , area=   all , maxDets= 20 ] = 0.164
+ Average Precision  (AP) @[ IoU=0.50:0.95 , area=medium , maxDets= 20 ] = 0.079
+ Average Precision  (AP) @[ IoU=0.50:0.95 , area= large , maxDets= 20 ] = 0.329
+ Average Recall     (AR) @[ IoU=0.50:0.95 , area=   all , maxDets= 20 ] = 0.245
+ Average Recall     (AR) @[ IoU=0.50      , area=   all , maxDets= 20 ] = 0.410
+ Average Recall     (AR) @[ IoU=0.75      , area=   all , maxDets= 20 ] = 0.241
+ Average Recall     (AR) @[ IoU=0.50:0.95 , area=medium , maxDets= 20 ] = 0.083
+ Average Recall     (AR) @[ IoU=0.50:0.95 , area= large , maxDets= 20 ] = 0.467
  Frame per second   (FPS) = 16
 
 Pretrained model densenet_121_trt 256x256

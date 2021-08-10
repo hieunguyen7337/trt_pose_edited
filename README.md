@@ -1,10 +1,7 @@
 # trt_pose_edited
 A modified repository from the trt_pose github by NVidia 
-
 Result model compare to 2 pretrained model provided by NVidia
-
 Pretrained model resnet_18_trt 224x224
-
  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.185
  Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.365
  Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.164
@@ -18,7 +15,6 @@ Pretrained model resnet_18_trt 224x224
  Frame per second   (FPS) = 16
 
 Pretrained model densenet_121_trt 256x256
-
  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.245
  Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.453
  Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.236
@@ -32,7 +28,6 @@ Pretrained model densenet_121_trt 256x256
  Frame per second   (FPS) = 9.5
 
 Modified model dla34_epoch249_upsample_x2_adam_opti_trt cmap_threshold=0.2,link_threshold=0.2 320x320
-
  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.280
  Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.524
  Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.260
